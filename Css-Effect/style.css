@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.my-image {
+    width: 300px;
+    transition: 0.5s;
+}
+
+.my-image:hover {
+    transform: scale(1.1) rotate(3deg);
+    filter: brightness(110%);
+    Cursor: pointer;
+}
